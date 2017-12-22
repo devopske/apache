@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+  ServerName puppet2.dddke.net
+  RewriteEngine on
+  RewriteCond %{REQUEST_URI} ^/$
+  RewriteRule ^/(.*)$ /xmlui/$1 [l,PT]
+  JkMount  /xmlui* tomcat2
+</VirtualHost>
+

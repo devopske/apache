@@ -1,5 +1,5 @@
 # Class: apache
-#
+#DDD-DSpace
 # This class installs Apache
 #
 # Parameters:

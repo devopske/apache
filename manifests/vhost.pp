@@ -34,7 +34,7 @@ define apache::vhost(
   $ssl_options                 = undef,
   $ssl_openssl_conf_cmd        = undef,
   $ssl_proxyengine             = false,
-  $priority                    = false,
+  $priority                    = '25'
   $default_vhost               = false,
   $servername                  = $name,
   $serveraliases               = [],

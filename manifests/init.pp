@@ -34,7 +34,7 @@ class apache (
   $service_manage         = true,
   $service_ensure         = 'running',
   $service_restart        = undef,
-  $purge_configs          = false,
+  $purge_configs          = true,
   $purge_vhost_dir        = undef,
   $purge_vdir             = false,
   $serveradmin            = 'root@localhost',
